@@ -1,16 +1,28 @@
-# VRA Nicholas Asset Install Manifest
+# VRA Install Manifest — Austin Default Assets
 
-Commit message:
-`[VRA] Add Nicholas default and neck-injury assets`
+⚠️ IMPORTANT: Extract this zip first. Upload the CONTENTS of the extracted folder,
+NOT the zip file itself. GitHub will not unzip it automatically.
 
-Copy these files into the repository root, preserving folders exactly.
+## Character
+Austin
 
-| Path | Size | Bytes |
-|---|---:|---:|
-| `assets/characters/nicholas/default/tile.png` | 1024x1024 | 1501018 |
-| `assets/characters/nicholas/default/portrait.png` | 1024x1536 | 1900719 |
-| `assets/characters/nicholas/neck-injury/tile.png` | 1024x1024 | 1623424 |
-| `assets/characters/nicholas/neck-injury/portrait.png` | 1024x1536 | 2063069 |
-| `assets/characters/nicholas/cards/default-card.png` | 1354x904 | 1237080 |
-| `assets/characters/nicholas/cards/neck-injury-card.png` | 1491x1055 | 2334759 |
-| `data/characters.json` | text | 1277 |
+## Files included
+- assets/characters/austin/default/tile.png
+- assets/characters/austin/default/profile-pic.png
+
+## Install steps
+1. Extract this zip
+2. Open github.com → MatticusHTML/Virtual-Room-Adventures
+3. Click Add file → Upload files
+4. Drag the extracted `assets/` folder into the upload area
+5. Commit with the message below
+
+## Commit message
+[VRA] Add Austin default tile and profile pic
+
+## Post-install check
+After GitHub Pages rebuilds, Austin should show:
+- Tile image in the roster grid
+- Profile pic in the detail panel
+- NPC tag
+- Fallout universe tag
