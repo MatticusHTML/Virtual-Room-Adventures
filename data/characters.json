@@ -4,7 +4,8 @@
     "name": "Nicholas",
     "universe": "Vault 81",
     "faction": "Vault-Tec",
-    "role": "Hero",
+    "pcNpc": "PC",
+    "role": "PC",
     "class": "Vault Dweller",
     "quote": "I survived the Vault. The wasteland can get in line.",
     "lore": "A practical survivor from the Vault 81 campaign, built for uncertain ground and bad odds.",
@@ -39,6 +40,43 @@
     "cards": [
       "assets/characters/nicholas/cards/default-card.png",
       "assets/characters/nicholas/cards/neck-injury-card.png"
+    ],
+    "scenes": []
+  },
+  {
+    "id": "austin",
+    "name": "Austin",
+    "universe": "Fallout",
+    "faction": "Vault 81",
+    "pcNpc": "NPC",
+    "role": "NPC",
+    "class": "Medical Trainee",
+    "quote": "Hold still. I am mostly sure this is the right end of the stimpack.",
+    "lore": "A sharp-eyed Vault 81 medical trainee trying to stay useful when clean hallways turn into wasteland triage. Austin carries the nervous focus of someone who has seen just enough danger to start learning fast.",
+    "ability": "Field Triage",
+    "abilityText": "Stabilizes allies under pressure, reads injuries quickly, and turns scarce medical supplies into just enough time to survive.",
+    "traits": [
+      "Observant",
+      "Medical",
+      "Cautious"
+    ],
+    "stats": {
+      "Power": 34,
+      "Resilience": 58,
+      "Agility": 62,
+      "Intelligence": 86,
+      "Luck": 49
+    },
+    "variants": [
+      {
+        "id": "default",
+        "title": "Default",
+        "tile": "assets/characters/austin/default/tile.png",
+        "portrait": "assets/characters/austin/default/profile-pic.png"
+      }
+    ],
+    "cards": [
+      "assets/characters/austin/cards/default-card.png"
     ],
     "scenes": []
   }
