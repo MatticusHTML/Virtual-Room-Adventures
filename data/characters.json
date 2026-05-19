@@ -1,0 +1,45 @@
+[
+  {
+    "id": "nicholas",
+    "name": "Nicholas",
+    "universe": "Vault 81",
+    "faction": "Vault-Tec",
+    "role": "Hero",
+    "class": "Vault Dweller",
+    "quote": "I survived the Vault. The wasteland can get in line.",
+    "lore": "A practical survivor from the Vault 81 campaign, built for uncertain ground and bad odds.",
+    "ability": "Adapt & Endure",
+    "abilityText": "Thrives in harsh conditions, learns fast, and survives the impossible.",
+    "traits": [
+      "Adaptable",
+      "Analytical",
+      "Survivor"
+    ],
+    "stats": {
+      "Power": 68,
+      "Resilience": 84,
+      "Agility": 72,
+      "Intelligence": 91,
+      "Luck": 55
+    },
+    "variants": [
+      {
+        "id": "default",
+        "title": "Default",
+        "tile": "assets/characters/nicholas/default/tile.png",
+        "portrait": "assets/characters/nicholas/default/portrait.png"
+      },
+      {
+        "id": "neck-injury",
+        "title": "Neck Injury",
+        "tile": "assets/characters/nicholas/neck-injury/tile.png",
+        "portrait": "assets/characters/nicholas/neck-injury/portrait.png"
+      }
+    ],
+    "cards": [
+      "assets/characters/nicholas/cards/default-card.png",
+      "assets/characters/nicholas/cards/neck-injury-card.png"
+    ],
+    "scenes": []
+  }
+]
