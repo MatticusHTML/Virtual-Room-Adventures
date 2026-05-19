@@ -1,87 +1,34 @@
 [
   {
-    "id": "nicholas",
-    "name": "Nicholas",
-    "universe": "Fallout",
-    "faction": "Vault 81",
-    "pcNpc": "PC",
+    "id": "voss-mercer",
+    "name": "Voss Mercer",
+    "universe": "Marvel-DC Merged Universe",
+    "faction": "Independent",
     "role": "PC",
-    "class": "Vault Dweller",
-    "quote": "I survived the Vault. The wasteland can get in line.",
-    "lore": "A practical survivor from the Fallout campaign, built for uncertain ground and bad odds.",
-    "ability": "Adapt & Endure",
-    "abilityText": "Thrives in harsh conditions, learns fast, and survives the impossible.",
-    "traits": [
-      "Adaptable",
-      "Analytical",
-      "Survivor"
-    ],
+    "class": "Telekinetic Warden",
+    "quote": "Villains need to unify and fight back properly, these heroes have had their thumbs on us for too long!",
+    "lore": "Latino telekinetic vigilante-turned-villain operating independently out of New York City. Demonstrated advanced battlefield control during the Times Square mechanical tentacle incident before pivoting toward villain unification. Following the killing of Commander Voss and a successful Gotham bank operation, he established a base of operations in Gotham's Industrial District and began building a crew, marking the start of what he calls a new age.",
+    "ability": "Telekinetic Barrier",
+    "abilityText": "Creates translucent force domes and angled walls for protection or control. Demonstrated in the Times Square incident, expanded to cover multiple civilians simultaneously while Voss maintained combat awareness and threat-sensing through the barrier.",
+    "traits": ["Telekinetic", "Battlefield Controller", "Villain Organizer"],
     "stats": {
-      "Power": 68,
-      "Resilience": 84,
-      "Agility": 72,
-      "Intelligence": 91,
-      "Luck": 55
+      "Health": 1200,
+      "Stamina": 550,
+      "Vital Reserve": 310,
+      "Cosmic Charge": 200,
+      "Energy": 300
     },
     "variants": [
       {
         "id": "default",
         "title": "Default",
-        "tile": "assets/characters/nicholas/default/tile.png",
-        "portrait": "assets/characters/nicholas/default/portrait.png"
-      },
-      {
-        "id": "neck-injury",
-        "title": "Neck Injury",
-        "tile": "assets/characters/nicholas/neck-injury/tile.png",
-        "portrait": "assets/characters/nicholas/neck-injury/portrait.png"
+        "tile": "assets/characters/voss-mercer/default/tile.png",
+        "portrait": "assets/characters/voss-mercer/default/profile-pic.png"
       }
     ],
     "cards": [
-      "assets/characters/nicholas/cards/default-card.png",
-      "assets/characters/nicholas/cards/neck-injury-card.png"
+      "assets/characters/voss-mercer/cards/default-card.png"
     ],
-    "scenes": [
-      "assets/characters/nicholas/scenes/scene-01.png"
-    ]
-  },
-  {
-    "id": "austin",
-    "name": "Austin",
-    "universe": "Fallout",
-    "faction": "Vault 81",
-    "pcNpc": "NPC",
-    "role": "NPC",
-    "class": "Vault Dweller",
-    "quote": "Hold still. I am mostly sure this is the right end of the stimpack.",
-    "lore": "A young Vault 81 medical trainee and vault dweller, Austin is sharp-eyed, earnest, and trying to stay useful when routine care turns into wasteland triage.",
-    "ability": "Field Triage",
-    "abilityText": "Stabilizes allies under pressure, reads injuries quickly, and turns scarce medical supplies into just enough time to survive.",
-    "traits": [
-      "Observant",
-      "Medical",
-      "Cautious"
-    ],
-    "stats": {
-      "Power": 34,
-      "Resilience": 58,
-      "Agility": 62,
-      "Intelligence": 86,
-      "Luck": 49
-    },
-    "variants": [
-      {
-        "id": "default",
-        "title": "Default",
-        "tile": "assets/characters/austin/default/tile.png",
-        "portrait": "assets/characters/austin/default/profile-pic.png"
-      }
-    ],
-    "cards": [
-      "assets/characters/austin/cards/default-card.png"
-    ],
-    "scenes": [
-      "assets/characters/austin/scenes/scene-01.png"
-    ]
+    "scenes": []
   }
 ]

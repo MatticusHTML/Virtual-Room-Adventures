@@ -1,0 +1,32 @@
+{
+  "id": "voss-mercer",
+  "name": "Voss Mercer",
+  "universe": "Marvel-DC Merged Universe",
+  "faction": "Independent",
+  "role": "PC",
+  "class": "Telekinetic Warden",
+  "quote": "Villains need to unify and fight back properly, these heroes have had their thumbs on us for too long!",
+  "lore": "Latino telekinetic vigilante-turned-villain operating independently out of New York City. Demonstrated advanced battlefield control during the Times Square mechanical tentacle incident before pivoting toward villain unification. Following the killing of Commander Voss and a successful Gotham bank operation, he established a base of operations in Gotham's Industrial District and began building a crew, marking the start of what he calls a new age.",
+  "ability": "Telekinetic Barrier",
+  "abilityText": "Creates translucent force domes and angled walls for protection or control. Demonstrated in the Times Square incident, expanded to cover multiple civilians simultaneously while Voss maintained combat awareness and threat-sensing through the barrier.",
+  "traits": ["Telekinetic", "Battlefield Controller", "Villain Organizer"],
+  "stats": {
+    "Health": 1200,
+    "Stamina": 550,
+    "Vital Reserve": 310,
+    "Cosmic Charge": 200,
+    "Energy": 300
+  },
+  "variants": [
+    {
+      "id": "default",
+      "title": "Default",
+      "tile": "assets/characters/voss-mercer/default/tile.png",
+      "portrait": "assets/characters/voss-mercer/default/profile-pic.png"
+    }
+  ],
+  "cards": [
+    "assets/characters/voss-mercer/cards/default-card.png"
+  ],
+  "scenes": []
+}
