@@ -3,6 +3,7 @@ VRA — Incoming character files
 
 Drop new character images here (any filenames are fine).
 Menu music and other site audio: drop in incoming/ — we move to assets/audio/.
+Boot line click: boot-line.mp3 (plays once per boot terminal line).
 
 Then tell Cursor in chat:
   - Character name
