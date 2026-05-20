@@ -11,18 +11,6 @@
     "lore": "A practical survivor from the Fallout campaign, built for uncertain ground and bad odds.",
     "ability": "Adapt & Endure",
     "abilityText": "Thrives in harsh conditions, learns fast, and survives the impossible.",
-    "traits": [
-      "Adaptable",
-      "Analytical",
-      "Survivor"
-    ],
-    "stats": {
-      "Power": 68,
-      "Resilience": 84,
-      "Agility": 72,
-      "Intelligence": 91,
-      "Luck": 55
-    },
     "variants": [
       {
         "id": "default",
@@ -46,6 +34,31 @@
     ]
   },
   {
+    "id": "overseer-gwen",
+    "name": "Overseer Gwen",
+    "universe": "Fallout",
+    "faction": "Vault 81",
+    "pcNpc": "NPC",
+    "role": "NPC",
+    "class": "Overseer",
+    "quote": "Panic is contagious. So is discipline—choose which one spreads.",
+    "lore": "Overseer of Vault 81, Gwen keeps the vault standing when sabotage, medical emergencies, and fear threaten to tear it apart. She leads through clear orders, crisis triage, and the kind of calm that makes people move before they have time to fall apart.",
+    "ability": "Command Under Pressure",
+    "abilityText": "Gwen stabilizes chaos through decisive orders, crisis triage, and disciplined leadership, keeping Vault 81 functional even when sabotage and panic threaten to fracture it.",
+    "variants": [
+      {
+        "id": "default",
+        "title": "Default",
+        "tile": "assets/characters/overseer-gwen/default/tile.png",
+        "portrait": "assets/characters/overseer-gwen/default/portrait.png"
+      }
+    ],
+    "cards": [
+      "assets/characters/overseer-gwen/cards/default-card.png"
+    ],
+    "scenes": []
+  },
+  {
     "id": "austin",
     "name": "Austin",
     "universe": "Fallout",
@@ -57,18 +70,6 @@
     "lore": "A young Vault 81 medical trainee and vault dweller, Austin is sharp-eyed, earnest, and trying to stay useful when routine care turns into wasteland triage.",
     "ability": "Field Triage",
     "abilityText": "Stabilizes allies under pressure, reads injuries quickly, and turns scarce medical supplies into just enough time to survive.",
-    "traits": [
-      "Observant",
-      "Medical",
-      "Cautious"
-    ],
-    "stats": {
-      "Power": 34,
-      "Resilience": 58,
-      "Agility": 62,
-      "Intelligence": 86,
-      "Luck": 49
-    },
     "variants": [
       {
         "id": "default",
@@ -96,18 +97,6 @@
     "lore": "Latino telekinetic vigilante-turned-villain operating independently out of New York City. Demonstrated advanced battlefield control during the Times Square mechanical tentacle incident before pivoting toward villain unification. Following the killing of Commander Voss and a successful Gotham bank operation, he established a base of operations in Gotham's Industrial District and began building a crew, marking the start of what he calls a new age.",
     "ability": "Telekinetic Barrier",
     "abilityText": "Creates translucent force domes and angled walls for protection or control. Demonstrated in the Times Square incident, expanded to cover multiple civilians simultaneously while Voss maintained combat awareness and threat-sensing through the barrier.",
-    "traits": [
-      "Telekinetic",
-      "Battlefield Controller",
-      "Villain Organizer"
-    ],
-    "stats": {
-      "Power": 88,
-      "Resilience": 76,
-      "Agility": 70,
-      "Intelligence": 82,
-      "Luck": 61
-    },
     "variants": [
       {
         "id": "default",
