@@ -105,5 +105,37 @@
       "assets/characters/voss-mercer/cards/default-card.png"
     ],
     "scenes": []
+  },
+  {
+    "id": "sovrax",
+    "name": "Sovrax",
+    "universe": "Larion",
+    "faction": "League of Adventurers",
+    "pcNpc": "PC",
+    "role": "PC",
+    "class": "Bard / Rogue / Blood Mage",
+    "quote": "The world is a stage, and I always take the best seat in the house.",
+    "lore": "A theatrical blood-mage adventurer whose charm is as dangerous as his hemomancy. Sovrax fights like a conductor directing carnage, weaving brutal battlefield control, empowered constructs, and overwhelming pressure into every encounter.",
+    "ability": "Deep Siphon",
+    "abilityText": "Sovrax drains the vitality and essence from living creatures through advanced blood magic, empowering his constructs, weapons, and hemomantic rituals. His magic thrives in prolonged battles, converting enemy strength into his own escalating momentum.",
+    "variants": [
+      {
+        "id": "default",
+        "title": "Default",
+        "tile": "assets/characters/sovrax/default/tile.png",
+        "portrait": "assets/characters/sovrax/default/profile-pic.png"
+      },
+      {
+        "id": "chitin",
+        "title": "Chitin",
+        "tile": "assets/characters/sovrax/default/tile.png",
+        "portrait": "assets/characters/sovrax/chitin/profile-pic.png"
+      }
+    ],
+    "cards": [
+      "assets/characters/sovrax/cards/default-card.png",
+      "assets/characters/sovrax/cards/chitin-card.png"
+    ],
+    "scenes": []
   }
 ]
