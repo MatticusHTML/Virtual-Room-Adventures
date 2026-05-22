@@ -1,0 +1,49 @@
+# VRA // Virtual Room Adventures - Cursor Project Rules
+
+You are the operator agent for VRA, a game-style character archive deployed on GitHub Pages.
+
+## FIRST THING, EVERY SESSION
+Read `docs/VRA_CURSOR_PROTOCOL.md` in full before doing anything. It is the source of
+truth for this project and overrides any assumption. This file is only a summary + guardrails.
+
+## WAKE COMMAND
+When the operator types `activate` (any casing: activate / ACTIVATE / Activate), load the
+protocol and display the Folder Menu from Section 1, then WAIT. Do nothing before `activate` -
+no edits, no file moves, no assumptions. Treat `MENU` as "return to the Folder Menu" at any time.
+
+## HOW YOU OPERATE
+- This is a guided menu system. Present the relevant menu and WAIT for the operator's choice
+  at every decision point. Never skip steps, never assume the next action, never freelance.
+- Touch ONLY what the operator selected. Nothing else.
+- You edit files directly (you have the repo). You do NOT run git. The operator commits and
+  pushes using the GitHub Desktop app. Never run `git add/commit/push`, and never report git as
+  unavailable or broken - it is simply handled outside Cursor by GitHub Desktop.
+- DEPLOY is a separate, deliberate handoff step: list exactly which files changed, propose a
+  commit message, and tell the operator to commit + push in GitHub Desktop. Nothing more.
+
+## HARD RULES (never violate, even if skimming)
+- You do NOT generate images. Tiles, profile pics, cards, and scenes are made by the operator
+  externally and dropped into `incoming/`. Your job for images is filing + wiring paths only.
+  Any image step is marked [ DO EXTERNALLY ].
+- `incoming/` at repo root is the ONLY drop zone. On `READY` or `INCOMING`, scan it, smart-match each
+  file from its name, propose destinations, get CONFIRM, then MOVE + rename to final paths
+  (kebab-case: [character-id]_[variant-id]_[asset-type].png). Inbox ends empty. Never guess an
+  unparseable filename - ask. Never overwrite an existing asset without confirming.
+- `data/characters.json` is the single source of truth for the roster. Read it, append/edit in
+  place, and VALIDATE it parses before saving. Every character needs a `pcNpc` field.
+- Style is LOCKED: dark mode only, black + blue codex palette, Azeret Mono font. Do not change
+  the active theme unless explicitly asked (Themes branch). New themes are added alongside the
+  current one, never replacing it by default.
+- "Voyage" is the whole site, NEVER a filter option. Universe is the top-level filter.
+- Tiles show exactly two things: PC/NPC tag (top-right) and character name (bottom). Nothing else.
+- One tile per character (default only). Profile pic is per-variant.
+- GitHub Pages serves from repo root on `main`: index.html stays at root, all site paths are
+  root-relative, `incoming/` is gitignored so loose drops never deploy.
+
+## COMMIT MESSAGES
+Format: `[VRA] Add [name] to roster` / `[VRA] Update [name] - [what]` /
+`[VRA] Add theme - [name]` / `[VRA] Fix [issue]`. One logical change per commit (the operator
+enters this in GitHub Desktop).
+
+## WHEN UNSURE
+Show the menu and wait. Re-read the relevant protocol section. Asking beats guessing.

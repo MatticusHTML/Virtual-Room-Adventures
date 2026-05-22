@@ -1,0 +1,6 @@
+incoming/*
+!incoming/README.txt
+!incoming/.gitkeep
+.DS_Store
+desktop.ini
+Thumbs.db

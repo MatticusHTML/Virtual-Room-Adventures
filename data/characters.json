@@ -29,9 +29,7 @@
       "assets/characters/nicholas/cards/default-card.png",
       "assets/characters/nicholas/cards/neck-injury-card.png"
     ],
-    "scenes": [
-      "assets/characters/nicholas/scenes/scene-01.png"
-    ]
+    "scenes": []
   },
   {
     "id": "overseer-gwen",
@@ -81,9 +79,7 @@
     "cards": [
       "assets/characters/austin/cards/default-card.png"
     ],
-    "scenes": [
-      "assets/characters/austin/scenes/scene-01.png"
-    ]
+    "scenes": []
   },
   {
     "id": "voss-mercer",
